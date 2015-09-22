@@ -1,0 +1,78 @@
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face {
+  font-family: 'aileron-bold';
+  src: url('../fonts/aileron-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/aileron-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/aileron-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/aileron-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/aileron-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/aileron-bold-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'aileron-light';
+  src: url('../fonts/aileron-light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/aileron-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/aileron-light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/aileron-light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/aileron-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/aileron-light-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+h1 {
+  font-size: 3.0rem;
+  font-family: 'aileron-bold';
+  line-height: 1.2;
+  font-weight: 300;
+  @media (min-width: $phablet ) {
+    font-size: 6rem;
+  }
+  @media (min-width: $desktop) {
+    font-size: 10rem;
+  }
+}
+
+h1 a {
+  text-decoration: none;
+}
+h2 {
+  font-size: 1.5rem;
+  font-family: 'aileron-light';
+  line-height: 1.25;
+  font-weight: 700;
+  @media (min-width: $phablet ) {
+    font-size: 2.5rem;
+  }
+}
+h3 {
+  font-size: 3.0rem;
+  line-height: 1.3;
+  letter-spacing: -.1rem;
+}
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem;
+}
+h5 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem;
+}
+h6 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+
+p {
+  margin-top: 0;
+}

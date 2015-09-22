@@ -1,0 +1,60 @@
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 62.5%;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html, * {
+  @include box-sizing(border-box);
+}
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: $sans-serif;
+  color: $main-color;
+  background: $bg-color;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container {
+  width: 95%;
+  height: 100vh;
+}
+
+
+/*
+-----
+Equalizer modified from this codepen: http://codepen.io/Fixie/pen/knuLf
+-----
+*/
+
+#music-bars span {
+  width: 1px;
+  margin-right: 3px;
+  display: block;
+  float: left;
+  opacity: .5;
+  @media (min-width: 585px) {
+      margin-right: 5px;
+      width: 3px;
+  }
+}
+
+.song {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
