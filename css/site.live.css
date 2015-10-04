@@ -688,6 +688,24 @@ a {
 .u-text-center {
   text-align: center; }
 
+h2::-moz-selection, p::-moz-selection {
+  background: #00B3D1;
+  color: #25064C; }
+
+h2::selection, p::selection {
+  background: #00B3D1;
+  color: #25064C; }
+
+h1 a::-moz-selection {
+  -webkit-text-stroke: 3px white;
+  background: transparent;
+  color: transparent; }
+
+h1 a::selection {
+  -webkit-text-stroke: 3px white;
+  background: transparent;
+  color: transparent; }
+
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Self Clearing Goodness */

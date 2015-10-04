@@ -32,3 +32,14 @@
 .u-text-center {
   text-align: center;
 }
+
+h2::selection, p::selection {
+  background: $line-color;
+  color: $bg-color;
+}
+
+h1 a::selection {
+  -webkit-text-stroke: 3px white;
+  background: transparent;
+  color: transparent;
+}
