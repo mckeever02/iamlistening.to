@@ -11,7 +11,8 @@ trackVal = data.recenttracks.track[0].name,
 urlVal = data.recenttracks.track[0].url;
 
 artist.append(artistVal);
-track.append('<a target="_blank" href="'+ urlVal +'">' + trackVal + '</a>');
+// track.append('<a target="_blank" href="'+ urlVal +'">' + trackVal + '</a>');
+track.append(trackVal);
 album.append(' &bull; ' + albumVal);
 
 });
