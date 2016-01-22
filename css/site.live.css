@@ -652,7 +652,8 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #fff; }
+  color: #fff;
+  text-decoration: none; }
   a:hover, a:focus {
     color: #e8e8e8; }
 

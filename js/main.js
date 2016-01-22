@@ -96,13 +96,3 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
 }
 
 setInterval(updateGradient,10);
-
-//change bg color on refresh of page
-
-var bgcolorlist = ['#25064C', '#00261C', '#16193B', '#1C1D21', '#360101'];
-
-$(function() {
-    $('.main').css({
-        background: bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)]
-    });
-});

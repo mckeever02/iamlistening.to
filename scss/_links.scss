@@ -2,9 +2,8 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: $link-color;
+  text-decoration: none;
   &:hover, &:focus {
     color: darken($link-color,9%);
   }
 }
-
-
